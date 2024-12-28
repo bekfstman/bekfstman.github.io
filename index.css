@@ -1,4 +1,7 @@
 body {
-  background-color: salmon;
-  color: olive
+  background-color: rgb(255, 216, 212);
+  color: rgb(0,60,30);
+  text-align: center;
+  padding-top: 280px;
+  font-size: 36px;
 }
