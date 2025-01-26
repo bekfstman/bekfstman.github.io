@@ -3,6 +3,11 @@
   src: url(SMW.Whole-Pixel.Spacing.ttf);
 }
 
+button {
+  font-family: "SMW";
+  font-size: 20px !important;
+}
+
 body {
   background-color: rgb(255, 216, 212);
   color: rgb(56, 20, 134);
@@ -23,6 +28,7 @@ body {
   padding: 16px 32px 16px 32px;
   margin: 24px 32px 24px 32px;
   border: 6px black solid;
+  font-family: "SMW";
 }
 
 #topstuff {
