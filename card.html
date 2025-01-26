@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <title>Virtual Card</title>
+    <meta name="description" content="Virtual Christmas Cards!">
+    <meta name="author" content="Ivan Wong">
+  </head>
+<body>
+  <div id="anibg">
+  <div id="topstuff" class="regular">
+    <h1>Welcome!!</h1>
+  </div>
+  <div id="navbar" class="regular">
+    <button disabled onclick="window.location.href='index.html';">Main</button>
+    <button onclick="window.location.href='othersite.html';">Card</button>
+  </div>
+  <div id="content" class="regular">
+      <h2>Merry Christmas to you...</h2>
+      <p>...is what I would say but since it's almost New Years already...<br>
+        Happy New Year to you too!<br>
+        I hope you had a wonderful year and I wish you a great year to come!<br><br>
+        Sincerely, Ivan<br><br>
+        ps. you might have a password linked with my message of this site, so type it below to see a special surprise!
+      </p>
+  </div>
+  <div class="regular" id="typeface">
+      <input id="check" type="text">
+      <button onclick="check()">Submit</button>
+  </div>
+  <div class="regular">
+    <p id="reward"></p>
+  </div>
+  </div>
+  <script>
+    function check(){
+      var checked = document.getElementById("check").value ;
+      var tag = "";
+      switch(checked){
+        case "wisdom":
+          tag = "John"
+          break;
+        
+        case "7209":
+          tag = "Mary"
+          break;
+
+        case "293598":
+          tag = "Jake"
+          break;
+        
+        case "10110":
+          tag = "Greg"
+          break;
+      }
+      switch(tag){
+        case "John":
+          document.getElementById("reward").innerHTML = "<br>To Kelly:<br><br>Thanks for all the optimism you brought!<br><br>I'm sure being positive all the time wasn't easy.<br><br>Hope you get a desirable DSE score and succeed in what you do in the future!<br><br>-Ivan"
+          break;
+        case "Mary":
+          document.getElementById("reward").innerHTML = "<br>To Johnson:<br><br>Thanks for being one of the only people I see every day.<br><br>Hope you succeed in whatever you do!<br><br>-Ivaan"
+          break;
+        case "Jake":
+          document.getElementById("reward").innerHTML = "<br>To Ethereal:<br><br>Thanks for all the little pieces of info that you've given me<br><br>Hope you achieve your dreams and have a safe flight! :) <br><br>-Ivan"
+          break;
+        case "Greg":
+          document.getElementById("reward").innerHTML = "<br>To Ben:<br><br>Thanks for being nice enough to not be too annoyed at me,<br><br>that amount of patience is very rare.<br><br>Hope you'll achieve your goals in life!<br><br>-Ivan"
+          break;
+      }
+    }
+  </script>
+</body>
+</html>
