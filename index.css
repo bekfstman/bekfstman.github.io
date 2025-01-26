@@ -31,8 +31,18 @@ body {
   font-family: "SMW";
 }
 
+.regular_n {
+  border: 6px black solid;
+  background-color: rgba(255, 216, 212, 0.7);
+  padding: 16px 32px 16px 32px;
+  margin:00px 32px 24px 32px;
+  font-family: "SMW";
+}
+
 #topstuff {
   text-align: center;
+  margin-bottom: 0px !important;
+  border-bottom: 0px !important;
 }
 
 #typeface {
