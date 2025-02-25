@@ -10,8 +10,8 @@ button {
 
 body {
   background-color: rgb(255, 216, 212);
-  color: rgb(56, 20, 134);
-  background-image: url(christmasdecor.png);
+  color: black;
+  background-image: url(maindecor.png);
   background-repeat: repeat;
   animation: aaa 4s linear infinite;
   overflow: visible;
@@ -27,12 +27,12 @@ body {
   background-color: rgba(255, 216, 212, 0.7);
   padding: 16px 32px 16px 32px;
   margin: 24px 32px 24px 32px;
-  border: 6px black solid;
+  border: 3px black solid;
   font-family: "SMW";
 }
 
 .regular_n {
-  border: 6px black solid;
+  border: 3px black solid;
   background-color: rgba(255, 216, 212, 0.7);
   padding: 16px 32px 16px 32px;
   margin:00px 32px 24px 32px;
@@ -59,4 +59,18 @@ button {
   height: 64px;
   width: 128px;
   font-size: 32px;
+  margin-right: 20px;
+}
+
+dt {
+  font-size: 24px;
+}
+
+dd {
+  font-size: 16px;
+}
+
+#changelog {
+  overflow-y: auto;
+  height: 240px;
 }
